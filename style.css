@@ -1,0 +1,56 @@
+#header{
+
+}
+
+#header-img{
+
+}
+
+
+#nav-bar{
+position: fixed top;
+font-size: 25px;
+}
+
+
+.nav-link{
+color: whitesmoke;
+text-shadow: red 1px 1px;
+}
+
+body{
+    text-align: center;
+    background-color: black;
+}
+
+#video{
+    border:2px red solid;
+    box-shadow: 0 10px 20px red;
+}
+
+@media screen and (min-width: 480px) {
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+  }
+
+p.white-text{
+    font-size: 20px;
+    text-shadow: red 1px 1px;
+}
+
+.white-text{
+    color: whitesmoke;
+}
+
+#email{
+    box-shadow: 0 10px 20px whitesmoke;
+}
+
+#submit{
+
+}
+
+.copyright{
+    color: whitesmoke;
+    font-size: 15px;
+}
