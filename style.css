@@ -8,24 +8,31 @@
 
 
 #nav-bar{
-position: fixed top;
+position: fixed;
 font-size: 25px;
+width: 100%;
+top: 0px;
+left: 0px;
+text-align: center;
+
 }
 
 
 .nav-link{
 color: whitesmoke;
 text-shadow: red 1px 1px;
+background: rgba(0, 0, 0, 0.39);
+text-align: center;
 }
 
 body{
-    text-align: center;
-    background-color: black;
+    background: url(Worlds.jpg);
 }
 
 #video{
     border:2px red solid;
     box-shadow: 0 10px 20px red;
+    text-align: center;
 }
 
 @media screen and (min-width: 480px) {
@@ -36,6 +43,7 @@ body{
 p.white-text{
     font-size: 20px;
     text-shadow: red 1px 1px;
+    background: rgba(0, 0, 0, 0.39);
 }
 
 .white-text{
@@ -44,13 +52,40 @@ p.white-text{
 
 #email{
     box-shadow: 0 10px 20px whitesmoke;
+    text-align: center;
 }
 
 #submit{
-
-}
+    background-color: whitesmoke;
+    }
 
 .copyright{
     color: whitesmoke;
     font-size: 15px;
+}
+
+input:hover{
+    animation-name: background-color;
+    animation-duration: 500ms;
+}
+@keyframes background-color{
+    100%{
+        background-color: red;
+    }
+}
+main{
+    text-align: center;
+}
+#footer{
+    text-align: center;
+}
+
+.horizon{
+    display: flex;
+    position: relative;
+    left: 1480px;
+}
+
+a.nav-link{
+    margin-right: 8px;
 }
