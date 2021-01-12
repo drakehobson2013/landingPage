@@ -14,7 +14,7 @@ width: 100%;
 top: 0px;
 left: 0px;
 text-align: center;
-
+display: flex;
 }
 
 
@@ -23,10 +23,12 @@ color: whitesmoke;
 text-shadow: red 1px 1px;
 background: rgba(0, 0, 0, 0.39);
 text-align: center;
+display: block;
 }
 
 body{
-    background: url(Worlds.jpg);
+    background: url(Worlds.jpg) no-repeat center;
+    background-size: 100%;
 }
 
 #video{
@@ -83,9 +85,17 @@ main{
 .horizon{
     display: flex;
     position: relative;
-    left: 1480px;
+    left: 1380px;
 }
 
 a.nav-link{
     margin-right: 8px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+nav li{
+    flex: 1 1 0;
 }
