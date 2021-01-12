@@ -1,10 +1,10 @@
-#header{
+/* #header{
 
 }
 
 #header-img{
 
-}
+} */
 
 
 #nav-bar{
@@ -27,7 +27,7 @@ display: block;
 }
 
 body{
-    background: url(Worlds.jpg) no-repeat center;
+    background: url(Worlds.jpg) center;
     background-size: 100%;
 }
 
@@ -98,4 +98,8 @@ nav ul{
 }
 nav li{
     flex: 1 1 0;
+}
+
+nav ul li{
+    list-style-type: none;
 }
